@@ -29,3 +29,19 @@
 | Expected Result | The user remains on the login page and an error message is displayed. |
 | Actual Result | The user remained on the login page and the following message was displayed: `Epic sadface: Username and password do not match any user in this service` |
 | Status | Passed |
+
+---
+
+## TC-LOGIN-003 — Login attempt with an empty password
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC-LOGIN-003 |
+| Title | Verify that login is rejected when the password field is empty |
+| Priority | High |
+| Preconditions | The Swag Labs login page is open |
+| Test Data | Username: `standard_user` / Password: empty |
+| Steps | 1. Enter `standard_user` in the Username field.<br>2. Leave the Password field empty.<br>3. Click the **Login** button. |
+| Expected Result | The user remains on the login page and a password-required error message is displayed. |
+| Actual Result | The user remained on the login page and the following message was displayed: `Epic sadface: Password is required` |
+| Status | Passed |
