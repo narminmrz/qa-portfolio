@@ -7,7 +7,6 @@ This repository contains practical testing work completed as part of my QA learn
 ## Projects
 
 - Swag Labs — Web application testing
-- e-Junkie — E-commerce exploratory testing
 - Buggy Cars Rating — Functional testing
 - JPetStore — Functional and regression testing
 - OrangeHRM Demo — HR management system testing
