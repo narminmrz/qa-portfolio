@@ -13,3 +13,19 @@
 | Expected Result | The user is redirected to the Products page and the product list is displayed. |
 | Actual Result | The user was redirected to the Products page and the product list was displayed. |
 | Status | Passed |
+
+---
+
+## TC-LOGIN-002 — Login attempt with an invalid username
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC-LOGIN-002 |
+| Title | Verify that login is rejected when an invalid username is entered |
+| Priority | High |
+| Preconditions | The Swag Labs login page is open |
+| Test Data | Username: `wrong_user` / Password: `secret_sauce` |
+| Steps | 1. Enter `wrong_user` in the Username field.<br>2. Enter `secret_sauce` in the Password field.<br>3. Click the **Login** button. |
+| Expected Result | The user remains on the login page and an error message is displayed. |
+| Actual Result | The user remained on the login page and the following message was displayed: `Epic sadface: Username and password do not match any user in this service` |
+| Status | Passed |
