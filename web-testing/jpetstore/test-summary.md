@@ -17,7 +17,7 @@
 - Product catalog
 - Product details
 - Product search
-- Shopping cart
+- Shopping cart 
 - Cart quantity update
 - Remove from cart
 
