@@ -28,3 +28,19 @@
 | Expected Result | The item quantity is updated to `2` and the total amount is recalculated. |
 | Actual Result | The item quantity was updated to `2` and the total amount increased. |
 | Status | Passed |
+
+
+---
+
+## TC-CART-003 — Remove an item from the cart
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC-CART-003 |
+| Title | Verify that a user can remove an item from the shopping cart |
+| Priority | High |
+| Preconditions | An item is displayed in the cart |
+| Steps | 1. Click **Remove** for the item in the cart. |
+| Expected Result | The item is removed and the cart is empty. |
+| Actual Result | The item was removed and the cart became empty. |
+| Status | Passed |
