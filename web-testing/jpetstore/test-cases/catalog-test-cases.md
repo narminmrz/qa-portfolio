@@ -29,3 +29,20 @@
 | Expected Result | The product detail page opens and displays the product name, item variants, and price. |
 | Actual Result | The product detail page opened and displayed the product name, item variants, and price. |
 | Status | Passed |
+
+
+---
+
+## TC-CATALOG-003 — Search for a product
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC-CATALOG-003 |
+| Title | Verify that a user can search for an existing product |
+| Priority | Medium |
+| Preconditions | The JPetStore home page is open |
+| Test Data | Search keyword: `Angelfish` |
+| Steps | 1. Enter `Angelfish` in the search field.<br>2. Submit the search. |
+| Expected Result | The search results page opens and displays the Angelfish product. |
+| Actual Result | The search results page opened and displayed the Angelfish product. |
+| Status | Passed |
