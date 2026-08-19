@@ -44,5 +44,22 @@
 | Expected Result | The user remains on the login page and a `Required` validation message is displayed below the Username field. |
 | Actual Result | The user remained on the login page. A `Required` validation message was displayed below the Username field, and `Invalid credentials` was also displayed. |
 | Status | Passed |
+
+
+---
+
+## TC-LOGIN-004 — Login attempt with an empty password
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC-LOGIN-004 |
+| Title | Verify validation when the Password field is empty |
+| Priority | High |
+| Preconditions | The OrangeHRM login page is open |
+| Test Data | Username: `Admin` / Password: empty |
+| Steps | 1. Enter `Admin` in the Username field.<br>2. Leave the Password field empty.<br>3. Click **Login**. |
+| Expected Result | The user remains on the login page and a `Required` validation message is displayed below the Password field. |
+| Actual Result | The user remained on the login page. A `Required` validation message was displayed below the Password field, and `Invalid credentials` was also displayed. |
+| Status | Passed |
 | Actual Result | The user remained on the login page and the following message was displayed: `Invalid credentials` |
 | Status | Passed |
