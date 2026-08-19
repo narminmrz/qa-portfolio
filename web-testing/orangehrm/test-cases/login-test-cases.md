@@ -13,3 +13,20 @@
 | Expected Result | The user is redirected to the Dashboard and the navigation menu is displayed. |
 | Actual Result | The user was redirected to the Dashboard and the navigation menu was displayed. |
 | Status | Passed |
+
+
+---
+
+## TC-LOGIN-002 — Login attempt with an invalid username
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC-LOGIN-002 |
+| Title | Verify that login is rejected when an invalid username is entered |
+| Priority | High |
+| Preconditions | The OrangeHRM login page is open |
+| Test Data | Username: `wrong_user` / Password: `admin123` |
+| Steps | 1. Enter `wrong_user` in the Username field.<br>2. Enter `admin123` in the Password field.<br>3. Click **Login**. |
+| Expected Result | The user remains on the login page and an invalid credentials message is displayed. |
+| Actual Result | The user remained on the login page and the following message was displayed: `Invalid credentials` |
+| Status | Passed |
